@@ -11,10 +11,10 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 # Background
-background = pygame.image.load('background.png')
+background = pygame.image.load('bg2.png')
 
 # Sound
-mixer.music.load("background.wav")
+mixer.music.load("SkyFire (Title Screen).ogg")
 mixer.music.play(-1)
 
 # Caption and Icon
